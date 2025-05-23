@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-right: 150px;
+    padding-left: 150px;
+    background-color: #1F2937;
+
+}
+
+.logo {
+    display: flex;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #F9FAF8;
+}
+.first-container, .second-container, .third-container, .fourth-container {
+    padding-right: 150px;
+    padding-left: 150px;
+}
+.first-container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 350px;
+    gap: 20px;
+}
+.first-content-image img {
+    height: 300px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+p, button {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first-content button {
+    width: 150px;
+    height: 40px;
+    background-color:#3882F6;
+    border: none;
+    border-radius: 10px;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.second-header {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 30px;
+
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.images img {
+    height: 150px;
+    width: 150px;
+}
+
+.images p {
+    color: #1F2937;
+    padding: 20px;
+}
+
+.third-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.third-content, .third-content p {
+    padding: 30px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.third-content p {
+    text-align: right;
+}
+
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.fourth-content {
+    display: flex;
+    margin: 30px;
+    padding: 30px;
+    background-color:#3882F6;
+    gap: 300px;
+
+}
+
+.fourth-container button {
+    background-color:#3882F6;
+    border-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+}
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.call-to-action div {
+    font-size: 24px;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
