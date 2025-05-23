@@ -44,7 +44,7 @@ ul {
 .first-container {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
